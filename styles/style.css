@@ -1,0 +1,97 @@
+body{
+    background: linear-gradient(90deg, #016003 0%, #a8ffb2 100%);
+}
+.navbar-light .navbar-nav .nav-link.active{
+color: rgb(158, 158, 158);
+}
+.navbar-light .navbar-nav .nav-link,
+.navbar-light .navbar-brand{
+    color: rgb(0, 0, 0);
+}
+.navbar-light .navbar-toggler{
+    background-color: rgb(0, 0, 0);
+}
+.card-image_top{
+    width: 150px;
+}
+.nav-right a{
+    text-decoration: none;
+    color: crimson;
+}
+.nav-right{
+    color: rgb(0, 17, 255);
+    background: linear-gradient(270deg, #016003 0%, #a8ffb2 100%);
+}
+.card{
+    background: linear-gradient(270deg, #016003 0%, #a8ffb2 100%);
+}
+.card a{
+    text-decoration: none;
+    color: black;
+}
+
+.slide-text h4{
+    color: rgb(122, 35, 184);
+}
+.slide-text{
+    padding-right: 5rem;
+}
+.imgs{
+ padding-left: 6rem;
+ padding-bottom: 3rem;
+}
+.footer-text{
+ margin: auto auto;
+}
+.boton{
+    background: linear-gradient(270deg, #016003 0%, #71d67d 100%);
+}
+footer{
+background: linear-gradient(270deg, #016003 0%, #71d67d 100%);
+} 
+.card2{
+    background: linear-gradient(270deg, #016003 0%, #a8ffb2 100%);
+	margin-top: 20px;
+	border: solid;
+	border-color: brown;
+
+}
+.help{
+    text-decoration: none;
+    color: black;
+}
+.TelAnim{
+    animation: myAnim 2s cubic-bezier(0.45, 0, 0.55, 1) 2s infinite normal forwards;
+}
+@keyframes myAnim {
+	0%,
+	100% {
+		transform: translateX(0);
+	}
+
+	10%,
+	30%,
+	50%,
+	70% {
+		transform: translateX(-10px);
+	}
+
+	20%,
+	40%,
+	60% {
+		transform: translateX(10px);
+	}
+
+	80% {
+		transform: translateX(8px);
+	}
+
+	90% {
+		transform: translateX(-8px);
+	}
+}
+@media(max-width: 750px){
+    .carousel-indicators{
+        display: none;
+    }
+}
